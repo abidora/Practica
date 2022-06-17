@@ -3,14 +3,12 @@
 setInterval(carmbiarSaludo, 2000);
 
 function carmbiarSaludo() {
-    let frase = document.getElementsByTagName("h2")[1].innerHTML;
+    let frase = document.getElementsByTagName("h1")[0].innerHTML;
 
-    if(document.getElementsByTagName("h2")[1].innerHTML; == "ganando como siempre"){
-        //frase = "impongo moda para las ninas";
-        document.getElementsByTagName("h2")[1].innerHTML= "impongo moda para las ninas";
+    if(frase.innerText == "ganando como siempre"){
+        frase.innerText = "impongo moda para las ninas";
     } else {
-        frase = "ganando como siempre";
-        document.getElementsByTagName("h2")[1].innerHTML = "ganando como siempre";
+         frase.innerText = "ganando como siempre";
     }
     console.log("frase : " + frase);
 }.
@@ -32,3 +30,5 @@ function cambiarSaludo() {
   }
   console.log("frase : " + frase);
 }
+
+/* 
