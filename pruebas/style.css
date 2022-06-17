@@ -1,5 +1,22 @@
-h1{
+* {
+    padding: 0;
+    margin: 1;
+
+
+}
+
+h1 {
     background-color: black;
     color: beige;
+    padding: 20px;
+    text-align: center;
+}
 
+h2{
+    padding: 2px;
+    text-align: start;
+}
+p {
+    text-align: left;
+    padding: 5px;
 }
